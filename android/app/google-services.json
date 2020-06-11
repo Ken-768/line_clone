@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "187742682090",
+    "firebase_url": "https://line-clone-40deb.firebaseio.com",
+    "project_id": "line-clone-40deb",
+    "storage_bucket": "line-clone-40deb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187742682090:android:b6c2df7da972311f229093",
+        "android_client_info": {
+          "package_name": "com.example.line_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187742682090-4nf72arn2765008bbfl1hvhbpm3f7a00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2rGNPVFPnYBEeQxP0WG2D0FobljSxOq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187742682090-4nf72arn2765008bbfl1hvhbpm3f7a00.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "187742682090-ln337iclkkab4prj06ga3387blinqh3s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lineClone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
