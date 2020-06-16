@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:line_clone/screen/home.dart';
 import 'package:provider/provider.dart';
 import 'api/firebase_auth.dart';
 import 'screen/signin.dart';
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
         ),
         initialRoute: '/',
         routes: {
-          '/': (context) => SignIn(),
+          '/': (context) => SignIn(authFormType: AuthFormType.signUp,),
+          '/home': (BuildContext context) => HomePage(),
         },
       ),
      );

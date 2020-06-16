@@ -13,4 +13,8 @@ class FirebaseMethods {
 
     return user.uid;
   }
+
+  Future<String> signInWithEmailAndPassword(String email, String password) async {
+    return (await _auth.signInWithEmailAndPassword(email: email, password: password)).user.uid;
+  }
 }
